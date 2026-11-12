@@ -1,0 +1,560 @@
+{
+  "project": "Serenity Alpha Research",
+  "stage": "R4-A prep",
+  "safety": {
+    "buy_recommendation": "STOP",
+    "sell_recommendation": "STOP",
+    "target_price": "STOP",
+    "position_sizing": "STOP",
+    "entry_timing": "STOP",
+    "brokerage_account_access": "NO",
+    "secret_read": "NO"
+  },
+  "source_extraction": {
+    "local_input_files_found": [],
+    "local_input_status": "NO_LOCAL_SERENITY_INPUT_FILES_FOUND",
+    "r1_r2_r3_core_conclusions_extracted": [
+      "R3_ACCEPTED_AS_RESEARCH_SCREENING_ONLY",
+      "R4_DEEP_DIVE_ALLOWED",
+      "BUY_LIST_STOP",
+      "TARGET_PRICE_STOP",
+      "POSITION_SIZING_STOP",
+      "TRADE_PLAN_STOP",
+      "POET no-go/permanent caution and LWLG blocked/near no-go remain false-positive caution only"
+    ],
+    "scorecard_status": "RECONSTRUCTED_FROM_USER_PROVIDED_R4A_REQUIREMENTS_BECAUSE_LOCAL_SCORECARD_FILE_NOT_FOUND"
+  },
+  "scorecard_v1_2": {
+    "opportunity_score_fields": [
+      "chokepoint_relevance",
+      "ai_datacenter_or_semiconductor_infrastructure_linkage",
+      "scarcity_or_substitutability",
+      "cycle_durability",
+      "operating_leverage_without_target_price",
+      "right_tail_research_optionality"
+    ],
+    "evidence_score_fields": [
+      "production_revenue_evidence",
+      "customer_validation_quality",
+      "filing_disclosure_quality",
+      "backlog_or_order_visibility",
+      "technology_to_revenue_traceability",
+      "public_source_recency"
+    ],
+    "survivability_shareholder_capture_fields": [
+      "balance_sheet_resilience",
+      "gross_margin_and_cash_conversion",
+      "dilution_control",
+      "governance_and_accounting_quality",
+      "shareholder_capture_mechanism",
+      "geopolitical_and_supply_chain_resilience"
+    ],
+    "penalty_fields": [
+      "demo_not_production_penalty",
+      "social_hype_penalty",
+      "customer_concentration_penalty",
+      "valuation_overheat_penalty",
+      "dilution_or_going_concern_penalty",
+      "weak_linkage_penalty"
+    ],
+    "hard_stop_gates": [
+      "STOP-REV0",
+      "STOP-DEMO-NOT-PRODUCTION",
+      "STOP-CUSTOMER-UNCLEAR",
+      "STOP-DILUTION",
+      "STOP-SOCIAL-HYPE",
+      "STOP-CUSTOMER-CONCENTRATION",
+      "STOP-CHINA-GEO",
+      "STOP-VALUATION-OVERHEAT",
+      "STOP-GOING-CONCERN",
+      "STOP-SHAREHOLDER-NOT-CAPTURED",
+      "STOP-GOVERNANCE-ACCOUNTING",
+      "STOP-LINKAGE-WEAK"
+    ]
+  },
+  "candidates": [
+    {
+      "ticker": "TSEM",
+      "company": "Tower Semiconductor Ltd.",
+      "sector": "specialty foundry / silicon photonics manufacturing enablement",
+      "r3_classification": "R4-A priority candidate",
+      "r4_group": "optical / silicon photonics / optical manufacturing / test",
+      "priority": "1",
+      "main_thesis": "Specialty foundry exposure that may matter if silicon photonics and optical I/O require credible production-grade manufacturing partners.",
+      "known_risks": [
+        "customer linkage may be indirect",
+        "foundry utilization cyclicality",
+        "geopolitical and capacity execution risk"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "Can public filings show silicon photonics or optical I/O production linkage?",
+        "Is the linkage direct enough to survive STOP-LINKAGE-WEAK?",
+        "Does specialty foundry economics accrue to shareholders?"
+      ],
+      "status": "R4_DEEP_DIVE_PREPARED_RESEARCH_ONLY"
+    },
+    {
+      "ticker": "ONTO",
+      "company": "Onto Innovation Inc.",
+      "sector": "semiconductor process control / inspection / metrology",
+      "r3_classification": "R4-A priority candidate",
+      "r4_group": "optical / silicon photonics / optical manufacturing / test",
+      "priority": "2",
+      "main_thesis": "Process control and metrology angle tied to advanced packaging, heterogeneous integration, and optical manufacturing quality control.",
+      "known_risks": [
+        "semicap cyclicality",
+        "AI linkage must be tied to shipped systems and backlog",
+        "valuation crowding risk"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "Which product lines directly serve advanced packaging or optical manufacturing quality control?",
+        "Are AI/advanced packaging references backed by revenue, orders, or customer pull?",
+        "Is valuation crowding already ahead of evidence?"
+      ],
+      "status": "R4_DEEP_DIVE_PREPARED_RESEARCH_ONLY"
+    },
+    {
+      "ticker": "CAMT",
+      "company": "Camtek Ltd.",
+      "sector": "semiconductor inspection and metrology",
+      "r3_classification": "R4-A priority candidate",
+      "r4_group": "optical / silicon photonics / optical manufacturing / test",
+      "priority": "3",
+      "main_thesis": "Inspection/metrology angle for advanced packaging and high-complexity semiconductor manufacturing workflows.",
+      "known_risks": [
+        "inspection demand cyclicality",
+        "customer concentration risk",
+        "geographic exposure risk"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "Which inspection systems map to advanced packaging or optical manufacturing steps?",
+        "How concentrated is demand by customer or geography?",
+        "Is growth tied to production ramps rather than pilot tools?"
+      ],
+      "status": "R4_DEEP_DIVE_PREPARED_RESEARCH_ONLY"
+    },
+    {
+      "ticker": "FORM",
+      "company": "FormFactor, Inc.",
+      "sector": "semiconductor probe cards / test interface",
+      "r3_classification": "R4-A priority candidate",
+      "r4_group": "optical / silicon photonics / optical manufacturing / test",
+      "priority": "4",
+      "main_thesis": "Probe-card and test-interface exposure to advanced packaging, HBM, chiplets, and higher test complexity.",
+      "known_risks": [
+        "semicap test cycle volatility",
+        "customer concentration risk",
+        "margin sensitivity"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "How much demand is tied to HBM/chiplets/advanced packaging test complexity?",
+        "Can margin and cash conversion capture the chokepoint value?",
+        "Does customer concentration create a hard stop?"
+      ],
+      "status": "R4_DEEP_DIVE_PREPARED_RESEARCH_ONLY"
+    },
+    {
+      "ticker": "MTSI",
+      "company": "MACOM Technology Solutions Holdings, Inc.",
+      "sector": "RF / microwave / optical semiconductor components",
+      "r3_classification": "R4-A priority candidate",
+      "r4_group": "optical / silicon photonics / optical manufacturing / test",
+      "priority": "5",
+      "main_thesis": "High-frequency and optical component supplier with potential linkage to datacenter, telecom, and optical connectivity bottlenecks.",
+      "known_risks": [
+        "end-market cyclicality",
+        "inventory correction risk",
+        "customer concentration risk"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "Which optical/datacenter products have production revenue?",
+        "How sensitive is revenue to telecom inventory cycles?",
+        "Are customer design wins disclosed enough to clear evidence gates?"
+      ],
+      "status": "R4_DEEP_DIVE_PREPARED_RESEARCH_ONLY"
+    },
+    {
+      "ticker": "FN",
+      "company": "Fabrinet",
+      "sector": "optical manufacturing services / precision manufacturing",
+      "r3_classification": "R4-A priority candidate",
+      "r4_group": "optical / silicon photonics / optical manufacturing / test",
+      "priority": "6",
+      "main_thesis": "Precision optical manufacturing services candidate where production revenue and customer quality need close validation.",
+      "known_risks": [
+        "customer concentration risk",
+        "EMS margin capture limits",
+        "program timing volatility"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "Which optical manufacturing programs are in production scale?",
+        "Does customer concentration reduce shareholder capture?",
+        "Can EMS margins capture enough upside from the chokepoint?"
+      ],
+      "status": "R4_DEEP_DIVE_PREPARED_RESEARCH_ONLY"
+    },
+    {
+      "ticker": "AEHR",
+      "company": "Aehr Test Systems",
+      "sector": "semiconductor wafer-level test and burn-in",
+      "r3_classification": "R4-A priority candidate",
+      "r4_group": "optical / silicon photonics / optical manufacturing / test",
+      "priority": "7",
+      "main_thesis": "Wafer-level test/burn-in candidate where AI, silicon carbide, and photonics linkages require evidence separation from hype.",
+      "known_risks": [
+        "revenue concentration risk",
+        "demo-to-production gap risk",
+        "valuation overheating risk"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "Which revenue is production burn-in/test versus evaluation tools?",
+        "Is customer concentration manageable?",
+        "Are AI/photonics references supported by filings or only narrative?"
+      ],
+      "status": "R4_DEEP_DIVE_PREPARED_RESEARCH_ONLY"
+    },
+    {
+      "ticker": "COHR",
+      "company": "Coherent Corp.",
+      "sector": "optical materials / lasers / transceivers",
+      "r3_classification": "R4-A benchmark / risk comparison",
+      "r4_group": "benchmark / risk comparison",
+      "priority": "8",
+      "main_thesis": "Benchmark for optical materials/components scale, cyclicality, debt, and execution risk versus smaller chokepoint candidates.",
+      "known_risks": [
+        "leverage and integration risk",
+        "telecom/datacenter cyclicality",
+        "shareholder capture uncertainty"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "What risk benchmark does scale, debt, and optical cycle volatility create?",
+        "Does integration/deleveraging limit shareholder capture?",
+        "How does production evidence compare with smaller candidates?"
+      ],
+      "status": "BENCHMARK_ONLY_RESEARCH_COMPARISON"
+    },
+    {
+      "ticker": "LITE",
+      "company": "Lumentum Holdings Inc.",
+      "sector": "optical components / photonics",
+      "r3_classification": "R4-A benchmark / risk comparison",
+      "r4_group": "benchmark / risk comparison",
+      "priority": "9",
+      "main_thesis": "Benchmark for optical component cyclicality, datacenter/telecom demand, customer concentration, and margin recovery risk.",
+      "known_risks": [
+        "customer concentration risk",
+        "telecom weakness risk",
+        "margin recovery uncertainty"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "What does datacenter recovery evidence show versus telecom weakness?",
+        "How severe is customer concentration?",
+        "Does margin recovery create evidence or just expectation?"
+      ],
+      "status": "BENCHMARK_ONLY_RESEARCH_COMPARISON"
+    },
+    {
+      "ticker": "AAOI",
+      "company": "Applied Optoelectronics, Inc.",
+      "sector": "optical modules / datacenter telecom components",
+      "r3_classification": "R4-A benchmark / risk comparison",
+      "r4_group": "benchmark / risk comparison",
+      "priority": "10",
+      "main_thesis": "Benchmark/risk case for optical module revenue volatility, customer concentration, and hype versus durable production demand.",
+      "known_risks": [
+        "customer concentration and revenue volatility",
+        "historical hype risk",
+        "durability of production demand unclear"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "Is recent revenue durable production demand or customer-specific burst?",
+        "Does customer concentration trigger STOP-CUSTOMER-CONCENTRATION?",
+        "How much of the narrative relies on prior stock movement or hype?"
+      ],
+      "status": "BENCHMARK_ONLY_RESEARCH_COMPARISON"
+    },
+    {
+      "ticker": "AXTI",
+      "company": "AXT, Inc.",
+      "sector": "compound semiconductor substrates",
+      "r3_classification": "R4-A benchmark / risk comparison",
+      "r4_group": "benchmark / risk comparison",
+      "priority": "11",
+      "main_thesis": "Benchmark/risk case for substrate exposure, China/geopolitical sensitivity, cyclicality, and shareholder capture risk.",
+      "known_risks": [
+        "China/geopolitical risk",
+        "substrate cycle volatility",
+        "profitability and shareholder capture risk"
+      ],
+      "hard_stop_status": {
+        "STOP-REV0": "UNCHECKED_R4_REQUIRED",
+        "STOP-DEMO-NOT-PRODUCTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-UNCLEAR": "UNCHECKED_R4_REQUIRED",
+        "STOP-DILUTION": "UNCHECKED_R4_REQUIRED",
+        "STOP-SOCIAL-HYPE": "UNCHECKED_R4_REQUIRED",
+        "STOP-CUSTOMER-CONCENTRATION": "UNCHECKED_R4_REQUIRED",
+        "STOP-CHINA-GEO": "UNCHECKED_R4_REQUIRED",
+        "STOP-VALUATION-OVERHEAT": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOING-CONCERN": "UNCHECKED_R4_REQUIRED",
+        "STOP-SHAREHOLDER-NOT-CAPTURED": "UNCHECKED_R4_REQUIRED",
+        "STOP-GOVERNANCE-ACCOUNTING": "UNCHECKED_R4_REQUIRED",
+        "STOP-LINKAGE-WEAK": "UNCHECKED_R4_REQUIRED"
+      },
+      "required_evidence": [
+        "latest 10-K/10-Q/20-F/6-K or annual/interim report",
+        "latest earnings release and transcript if public",
+        "segment revenue and backlog/order commentary",
+        "customer concentration disclosure",
+        "capex, margin, cash flow, dilution and debt disclosures",
+        "evidence that revenue is production revenue rather than demo/sample/MoU"
+      ],
+      "r4_questions": [
+        "How material is China/geopolitical exposure?",
+        "Is substrate demand tied to production chokepoints or cyclical rebound?",
+        "Can profitability and cash flow support shareholder capture?"
+      ],
+      "status": "BENCHMARK_ONLY_RESEARCH_COMPARISON"
+    }
+  ],
+  "blocked_or_no_go": [
+    {
+      "ticker": "POET",
+      "company": "POET Technologies Inc.",
+      "status": "NO-GO / permanent caution",
+      "allowed_use": "false-positive caution only"
+    },
+    {
+      "ticker": "LWLG",
+      "company": "Lightwave Logic, Inc.",
+      "status": "BLOCKED / near NO-GO",
+      "allowed_use": "false-positive caution only"
+    }
+  ],
+  "benchmark_only": [
+    "COHR",
+    "LITE",
+    "AAOI",
+    "AXTI"
+  ],
+  "generated_at": "2026-05-31T14:34:28.424481+08:00"
+}

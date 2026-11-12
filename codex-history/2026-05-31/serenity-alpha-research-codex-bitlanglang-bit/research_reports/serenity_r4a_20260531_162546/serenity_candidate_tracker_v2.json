@@ -1,0 +1,1914 @@
+{
+  "project": "Serenity Alpha Research",
+  "stage": "R4-A deep-dive",
+  "generated_at": "2026-05-31T16:26:24.558732+08:00",
+  "context_verification": {
+    "AGENTS.md": true,
+    "SERENITY_PROJECT_STATE.md": true,
+    "SERENITY_SCORECARD_V1_2.md": true,
+    "SERENITY_STOP_GATES.md": true,
+    "SERENITY_R3_CLASSIFICATION.csv": true,
+    "SERENITY_R4A_SCOPE.md": true,
+    "SERENITY_R1_R2_R3_SUMMARY.md": true
+  },
+  "public_source_status": "YES",
+  "source_limitations": [
+    "Automated SEC/EDGAR pass completed.",
+    "Company IR investor presentations, transcripts, and media/analyst sources require manual follow-up for full R5 underwriting.",
+    "No social media used as positive evidence."
+  ],
+  "candidates": [
+    {
+      "ticker": "TSEM",
+      "original_R3_status": "R4-A priority",
+      "updated_R4_status": "R4_PRIORITY_RESEARCH",
+      "scoring": {
+        "Opportunity Score": 72,
+        "Evidence Score": 54,
+        "Survivability / Shareholder Capture Score": 68,
+        "Penalty Score": 28,
+        "final_research_score": 63,
+        "confidence_level": "MEDIUM",
+        "R4_classification": "R4_PRIORITY_RESEARCH"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 1.57B USD (20-F, period end 2025-12-31, filed 2026-04-30, concept us-gaap:Revenues).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2026-04-30",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/928876/000117891326002318/zk2635149.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 20-F ZK2635149"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-21",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/928876/000117891326002871/zk2635394.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-21",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/928876/000117891326002871/zk2635394.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2026-04-30",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/928876/000117891326002318/zk2635149.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 1.57B USD (20-F, period end 2025-12-31, filed 2026-04-30, concept us-gaap:Revenues)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2026-04-30",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/928876/000117891326002318/zk2635149.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-04-30",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000928876.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 1.57B USD (20-F, period end 2025-12-31, filed 2026-04-30, concept us-gaap:Revenues); Gross profit: 363.9M USD (20-F, period end 2025-12-31, filed 2026-04-30, concept us-gaap:GrossProfit); Operating cash flow: 395.5M USD (20-F, period end 2025-12-31, filed 2026-04-30, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "Continue R4 priority/backlog evidence clearing"
+    },
+    {
+      "ticker": "ONTO",
+      "original_R3_status": "R4-A priority",
+      "updated_R4_status": "R5_THESIS_UNDERWRITING_CANDIDATE",
+      "scoring": {
+        "Opportunity Score": 84,
+        "Evidence Score": 76,
+        "Survivability / Shareholder Capture Score": 78,
+        "Penalty Score": 22,
+        "final_research_score": 79,
+        "confidence_level": "MEDIUM_HIGH",
+        "R4_classification": "R5_THESIS_UNDERWRITING_CANDIDATE"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 291.9M USD (10-Q, period end 2026-03-31, filed 2026-05-05, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Not triggered in this public-source pass."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2026-02-24",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/704532/000119312526066937/onto-20260103.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-21",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/704532/000119312526234610/d17904d8k.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-21",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/704532/000119312526234610/d17904d8k.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2026-02-24",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/704532/000119312526066937/onto-20260103.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 291.9M USD (10-Q, period end 2026-03-31, filed 2026-05-05, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2026-02-24",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/704532/000119312526066937/onto-20260103.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-05-05",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000704532.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 291.9M USD (10-Q, period end 2026-03-31, filed 2026-05-05, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax); Gross profit: 146.4M USD (10-Q, period end 2026-03-31, filed 2026-05-05, concept us-gaap:GrossProfit); Operating cash flow: 26.3M USD (10-Q, period end 2026-03-31, filed 2026-05-05, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "R5 underwriting memo with full filing/IR citations"
+    },
+    {
+      "ticker": "CAMT",
+      "original_R3_status": "R4-A priority",
+      "updated_R4_status": "R5_THESIS_UNDERWRITING_CANDIDATE",
+      "scoring": {
+        "Opportunity Score": 82,
+        "Evidence Score": 72,
+        "Survivability / Shareholder Capture Score": 72,
+        "Penalty Score": 26,
+        "final_research_score": 75,
+        "confidence_level": "MEDIUM_HIGH",
+        "R4_classification": "R5_THESIS_UNDERWRITING_CANDIDATE"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 496.1M USD (20-F, period end 2025-12-31, filed 2026-03-19, concept us-gaap:Revenues).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Not triggered in this public-source pass."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2026-03-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326001561/zk2634678.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 20-F 20-F"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-12",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326002569/zk2635285.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-12",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326002569/zk2635285.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2026-03-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326001561/zk2634678.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 496.1M USD (20-F, period end 2025-12-31, filed 2026-03-19, concept us-gaap:Revenues)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2026-03-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326001561/zk2634678.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-03-19",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001109138.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 496.1M USD (20-F, period end 2025-12-31, filed 2026-03-19, concept us-gaap:Revenues); Gross profit: 250.3M USD (20-F, period end 2025-12-31, filed 2026-03-19, concept us-gaap:GrossProfit); Operating cash flow: 141.9M USD (20-F, period end 2025-12-31, filed 2026-03-19, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "R5 underwriting memo with full filing/IR citations"
+    },
+    {
+      "ticker": "FORM",
+      "original_R3_status": "R4-A priority",
+      "updated_R4_status": "R5_THESIS_UNDERWRITING_CANDIDATE",
+      "scoring": {
+        "Opportunity Score": 80,
+        "Evidence Score": 78,
+        "Survivability / Shareholder Capture Score": 74,
+        "Penalty Score": 24,
+        "final_research_score": 77,
+        "confidence_level": "MEDIUM_HIGH",
+        "R4_classification": "R5_THESIS_UNDERWRITING_CANDIDATE"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 226.1M USD (10-Q, period end 2026-03-28, filed 2026-05-05, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Not triggered in this public-source pass."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2026-02-20",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000025/form-20260515.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000025/form-20260515.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2026-02-20",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 226.1M USD (10-Q, period end 2026-03-28, filed 2026-05-05, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2026-02-20",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-05-05",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001039399.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 226.1M USD (10-Q, period end 2026-03-28, filed 2026-05-05, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax); Gross profit: 86.8M USD (10-Q, period end 2026-03-28, filed 2026-05-05, concept us-gaap:GrossProfit); Operating cash flow: 45.0M USD (10-Q, period end 2026-03-28, filed 2026-05-05, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "R5 underwriting memo with full filing/IR citations"
+    },
+    {
+      "ticker": "MTSI",
+      "original_R3_status": "R4-A priority",
+      "updated_R4_status": "R4_PRIORITY_RESEARCH",
+      "scoring": {
+        "Opportunity Score": 70,
+        "Evidence Score": 60,
+        "Survivability / Shareholder Capture Score": 70,
+        "Penalty Score": 30,
+        "final_research_score": 65,
+        "confidence_level": "MEDIUM",
+        "R4_classification": "R4_PRIORITY_RESEARCH"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 560.6M USD (10-Q, period end 2026-04-03, filed 2026-05-07, concept us-gaap:Revenues).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2025-11-14",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1493594/000149359425000054/mtsi-20251003.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-07",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000024/mtsi-20260507.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-07",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000024/mtsi-20260507.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2025-11-14",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1493594/000149359425000054/mtsi-20251003.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 560.6M USD (10-Q, period end 2026-04-03, filed 2026-05-07, concept us-gaap:Revenues)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2025-11-14",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1493594/000149359425000054/mtsi-20251003.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-05-07",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001493594.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 560.6M USD (10-Q, period end 2026-04-03, filed 2026-05-07, concept us-gaap:Revenues); Gross profit: 316.2M USD (10-Q, period end 2026-04-03, filed 2026-05-07, concept us-gaap:GrossProfit); Operating cash flow: 121.6M USD (10-Q, period end 2026-04-03, filed 2026-05-07, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "Continue R4 priority/backlog evidence clearing"
+    },
+    {
+      "ticker": "FN",
+      "original_R3_status": "R4-A priority",
+      "updated_R4_status": "R4_PRIORITY_RESEARCH",
+      "scoring": {
+        "Opportunity Score": 73,
+        "Evidence Score": 68,
+        "Survivability / Shareholder Capture Score": 63,
+        "Penalty Score": 34,
+        "final_research_score": 66,
+        "confidence_level": "MEDIUM",
+        "R4_classification": "R4_PRIORITY_RESEARCH"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 3.33B USD (10-Q, period end 2026-03-27, filed 2026-05-05, concept us-gaap:Revenues).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "YES",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Triggered or materially risked; cap/penalize classification until resolved."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Not triggered in this public-source pass."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2025-08-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1408710/000140871025000039/fn-20250627.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-04",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000014/fn-20260504.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-04",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000014/fn-20260504.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2025-08-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1408710/000140871025000039/fn-20250627.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 3.33B USD (10-Q, period end 2026-03-27, filed 2026-05-05, concept us-gaap:Revenues)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2025-08-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1408710/000140871025000039/fn-20250627.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-05-05",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001408710.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 3.33B USD (10-Q, period end 2026-03-27, filed 2026-05-05, concept us-gaap:Revenues); Gross profit: 398.5M USD (10-Q, period end 2026-03-27, filed 2026-05-05, concept us-gaap:GrossProfit); Operating cash flow: 201.8M USD (10-Q, period end 2026-03-27, filed 2026-05-05, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "Continue R4 priority/backlog evidence clearing"
+    },
+    {
+      "ticker": "AEHR",
+      "original_R3_status": "R4-A priority",
+      "updated_R4_status": "R4_RESEARCH_BACKLOG",
+      "scoring": {
+        "Opportunity Score": 67,
+        "Evidence Score": 55,
+        "Survivability / Shareholder Capture Score": 52,
+        "Penalty Score": 42,
+        "final_research_score": 57,
+        "confidence_level": "MEDIUM_LOW",
+        "R4_classification": "R4_RESEARCH_BACKLOG"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 31.2M USD (10-Q, period end 2026-02-27, filed 2026-04-08, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "YES",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Triggered or materially risked; cap/penalize classification until resolved."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2025-07-28",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425008553/aehr_10k.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K FORM 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-04-20",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003746/aehr_8k.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-04-20",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003746/aehr_8k.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2025-07-28",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425008553/aehr_10k.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 31.2M USD (10-Q, period end 2026-02-27, filed 2026-04-08, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2025-07-28",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425008553/aehr_10k.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-04-08",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001040470.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 31.2M USD (10-Q, period end 2026-02-27, filed 2026-04-08, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax); Gross profit: 9.6M USD (10-Q, period end 2026-02-27, filed 2026-04-08, concept us-gaap:GrossProfit); Operating cash flow: -5.1M USD (10-Q, period end 2026-02-27, filed 2026-04-08, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "Continue R4 priority/backlog evidence clearing"
+    },
+    {
+      "ticker": "COHR",
+      "original_R3_status": "R4-A benchmark / risk comparison",
+      "updated_R4_status": "BENCHMARK_ONLY",
+      "scoring": {
+        "Opportunity Score": 76,
+        "Evidence Score": 76,
+        "Survivability / Shareholder Capture Score": 56,
+        "Penalty Score": 36,
+        "final_research_score": 67,
+        "confidence_level": "MEDIUM",
+        "R4_classification": "BENCHMARK_ONLY"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 5.07B USD (10-Q, period end 2026-03-31, filed 2026-05-06, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Not triggered in this public-source pass."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2025-08-15",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000014/iivi-20250630.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-06",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080d8k.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-06",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080d8k.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2025-08-15",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000014/iivi-20250630.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 5.07B USD (10-Q, period end 2026-03-31, filed 2026-05-06, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2025-08-15",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000014/iivi-20250630.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-05-06",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000820318.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 5.07B USD (10-Q, period end 2026-03-31, filed 2026-05-06, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax); Gross profit: not extracted; Operating cash flow: 10.1M USD (10-Q, period end 2026-03-31, filed 2026-05-06, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "Keep as benchmark/risk comparator"
+    },
+    {
+      "ticker": "LITE",
+      "original_R3_status": "R4-A benchmark / risk comparison",
+      "updated_R4_status": "BENCHMARK_ONLY",
+      "scoring": {
+        "Opportunity Score": 72,
+        "Evidence Score": 68,
+        "Survivability / Shareholder Capture Score": 60,
+        "Penalty Score": 34,
+        "final_research_score": 66,
+        "confidence_level": "MEDIUM",
+        "R4_classification": "BENCHMARK_ONLY"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 2.01B USD (10-Q, period end 2026-03-28, filed 2026-05-06, concept us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Not triggered in this public-source pass."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2025-08-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025040830/lite-20250628.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-05",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite-20260505.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-05",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite-20260505.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2025-08-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025040830/lite-20250628.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 2.01B USD (10-Q, period end 2026-03-28, filed 2026-05-06, concept us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2025-08-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025040830/lite-20250628.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-05-06",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001633978.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 2.01B USD (10-Q, period end 2026-03-28, filed 2026-05-06, concept us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax); Gross profit: 778.6M USD (10-Q, period end 2026-03-28, filed 2026-05-06, concept us-gaap:GrossProfit); Operating cash flow: 388.4M USD (10-Q, period end 2026-03-28, filed 2026-05-06, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "Keep as benchmark/risk comparator"
+    },
+    {
+      "ticker": "AAOI",
+      "original_R3_status": "R4-A benchmark / risk comparison",
+      "updated_R4_status": "BENCHMARK_ONLY",
+      "scoring": {
+        "Opportunity Score": 68,
+        "Evidence Score": 58,
+        "Survivability / Shareholder Capture Score": 50,
+        "Penalty Score": 46,
+        "final_research_score": 54,
+        "confidence_level": "MEDIUM_LOW",
+        "R4_classification": "BENCHMARK_ONLY"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 151.1M USD (10-Q, period end 2026-03-31, filed 2026-05-07, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "YES",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Triggered or materially risked; cap/penalize classification until resolved."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2026-02-26",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926005875/aaoi20251231_10k.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K FORM 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-14",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926061168/tm2614157d2_8k.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-14",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926061168/tm2614157d2_8k.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2026-02-26",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926005875/aaoi20251231_10k.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 151.1M USD (10-Q, period end 2026-03-31, filed 2026-05-07, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2026-02-26",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926005875/aaoi20251231_10k.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-05-07",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 151.1M USD (10-Q, period end 2026-03-31, filed 2026-05-07, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax); Gross profit: 43.9M USD (10-Q, period end 2026-03-31, filed 2026-05-07, concept us-gaap:GrossProfit); Operating cash flow: -85.4M USD (10-Q, period end 2026-03-31, filed 2026-05-07, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "Keep as benchmark/risk comparator"
+    },
+    {
+      "ticker": "AXTI",
+      "original_R3_status": "R4-A benchmark / risk comparison",
+      "updated_R4_status": "BENCHMARK_ONLY",
+      "scoring": {
+        "Opportunity Score": 60,
+        "Evidence Score": 50,
+        "Survivability / Shareholder Capture Score": 46,
+        "Penalty Score": 52,
+        "final_research_score": 47,
+        "confidence_level": "MEDIUM_LOW",
+        "R4_classification": "BENCHMARK_ONLY"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. Revenue fact: 26.9M USD (10-Q, period end 2026-03-31, filed 2026-05-14, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax).",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Customer concentration requires full filing note review; classification reflects known risk profile and automated pass limits.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "YES",
+          "evidence": "Public SEC pass plus local R3 risk classification. Geographic/manufacturing exposure requires full risk-factor review; AXTI flagged as China/geopolitical benchmark risk by local context.",
+          "consequence": "Triggered or materially risked; cap/penalize classification until resolved."
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No target price or trade framing used; valuation risk treated only as crowding/expectation risk.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Not triggered in this public-source pass."
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. No positive social or historical-price evidence used; filings reviewed at summary level.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Public SEC pass plus local R3 risk classification. Thesis-revenue linkage must be separated from total revenue before R5 underwriting.",
+          "consequence": "Unresolved; must be cleared before R5 underwriting confidence can rise."
+        }
+      ],
+      "evidence_summary": [
+        {
+          "category": "latest 10-K / 10-Q / 20-F",
+          "source_type": "SEC annual/quarterly filing",
+          "source_date": "2026-03-17",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926008612/axti20251231_10k.htm",
+          "confidence": "HIGH",
+          "supports": "Evidence / Survivability",
+          "note": "SEC 10-K FORM 10-K"
+        },
+        {
+          "category": "latest earnings release",
+          "source_type": "SEC 8-K/6-K current report proxy",
+          "source_date": "2026-05-15",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1051627/000121390026057122/ea0290937-8k_axt.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Confirmation",
+          "note": "Current-report proxy; inspect exhibits/company IR for exact earnings release language."
+        },
+        {
+          "category": "investor presentation",
+          "source_type": "company IR / SEC exhibit",
+          "source_date": "",
+          "source_reference": "not located in automated SEC pass",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "Needs manual company IR review before R5 underwriting."
+        },
+        {
+          "category": "customer / partner announcement",
+          "source_type": "SEC filings / company releases",
+          "source_date": "2026-05-15",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1051627/000121390026057122/ea0290937-8k_axt.htm",
+          "confidence": "MEDIUM_LOW",
+          "supports": "Evidence / Penalty",
+          "note": "Automated pass did not validate named customer logos beyond filings."
+        },
+        {
+          "category": "product / shipment / production evidence",
+          "source_type": "SEC filings and revenue facts",
+          "source_date": "2026-03-17",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926008612/axti20251231_10k.htm",
+          "confidence": "MEDIUM",
+          "supports": "Evidence",
+          "note": "Revenue fact: 26.9M USD (10-Q, period end 2026-03-31, filed 2026-05-14, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax)"
+        },
+        {
+          "category": "backlog / order / LTA / prepayment evidence",
+          "source_type": "SEC filings",
+          "source_date": "2026-03-17",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926008612/axti20251231_10k.htm",
+          "confidence": "LOW",
+          "supports": "Evidence / Limitation",
+          "note": "Automated SEC pass did not fully extract backlog, LTA, prepayment, take-or-pay, or cancellability language."
+        },
+        {
+          "category": "segment revenue / gross margin evidence",
+          "source_type": "SEC XBRL companyfacts",
+          "source_date": "2026-05-14",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001051627.json",
+          "confidence": "MEDIUM",
+          "supports": "Evidence / Survivability",
+          "note": "Revenue: 26.9M USD (10-Q, period end 2026-03-31, filed 2026-05-14, concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax); Gross profit: 8.0M USD (10-Q, period end 2026-03-31, filed 2026-05-14, concept us-gaap:GrossProfit); Operating cash flow: -11.7M USD (10-Q, period end 2026-03-31, filed 2026-05-14, concept us-gaap:NetCashProvidedByUsedInOperatingActivities)"
+        },
+        {
+          "category": "media / analyst evidence",
+          "source_type": "public media / analyst",
+          "source_date": "",
+          "source_reference": "not used for positive scoring",
+          "confidence": "LOW",
+          "supports": "Limitation",
+          "note": "No media/analyst evidence was used as positive evidence in this automated pass."
+        },
+        {
+          "category": "social media evidence",
+          "source_type": "social media",
+          "source_date": "",
+          "source_reference": "not used",
+          "confidence": "N/A",
+          "supports": "Penalty only",
+          "note": "Social-media heat is crowding risk only and contributes no positive evidence."
+        }
+      ],
+      "next_action": "Keep as benchmark/risk comparator"
+    }
+  ]
+}

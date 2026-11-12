@@ -1,0 +1,311 @@
+{
+  "project": "Serenity Alpha Research",
+  "stage": "R6_FORM_ONTO_RESEARCH_MEMO",
+  "safety": {
+    "buy_recommendation": "STOP",
+    "sell_recommendation": "STOP",
+    "target_price": "STOP",
+    "position_sizing": "STOP",
+    "entry_timing": "STOP",
+    "trade_plan": "STOP",
+    "brokerage_account_access": "NO",
+    "secret_read": "NO"
+  },
+  "candidates": [
+    {
+      "ticker": "FORM",
+      "previous_status": "R5_CANDIDATE",
+      "r6_classification": "R6_RESEARCH_BACKLOG",
+      "scores": {
+        "ticker": "FORM",
+        "industry_tailwind": 9,
+        "chokepoint_strength": 9,
+        "supply_chain_linkage": 8,
+        "valuation_reset_potential": 5,
+        "market_neglect": 6,
+        "technical_validation": 8,
+        "customer_validation": 7,
+        "production_validation": 9,
+        "financial_translation": 8,
+        "catalyst_density": 7,
+        "balance_sheet_survivability": 8,
+        "shareholder_capture": 8,
+        "management_quality": 7,
+        "governance_accounting_quality": 8,
+        "dilution_control": 8,
+        "social_media_overheat": 1,
+        "valuation_overheat": 4,
+        "customer_concentration": 4,
+        "replacement_risk": 3,
+        "execution_risk": 4,
+        "going_concern": 0,
+        "filing_audit_governance_risk": 1,
+        "opportunity_score": 37,
+        "evidence_score": 39,
+        "survivability_score": 39,
+        "penalty_score": 17,
+        "final_research_score": 85.2,
+        "confidence_level": "MEDIUM_HIGH",
+        "R6_classification": "R6_RESEARCH_BACKLOG"
+      },
+      "stop_gates": {
+        "STOP-REV0": {
+          "ticker": "FORM",
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Company has operating revenue from filed/public evidence.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-DEMO-NOT-PRODUCTION": {
+          "ticker": "FORM",
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Primary thesis evidence is production revenue/order/qualification context, not demo/sample/MoU alone.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-CUSTOMER-UNCLEAR": {
+          "ticker": "FORM",
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Customer/product relationships are supported by official releases, but details vary by ticker.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-DILUTION": {
+          "ticker": "FORM",
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Check share issuance, convertible financing, and SBC impact.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-SOCIAL-HYPE": {
+          "ticker": "FORM",
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "No social-media evidence was used as positive support.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-CUSTOMER-CONCENTRATION": {
+          "ticker": "FORM",
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Full 10% customer and customer concentration tables remain necessary for R7 governance. FORM says customer >10% breakdown is posted on IR, but this run did not fully extract the table.",
+          "consequence": "Cannot enter R7 directly under R6 rules; must remain R6 backlog/continue until cleared.",
+          "R6_status": "R6_RESEARCH_BACKLOG_REQUIRED"
+        },
+        "STOP-CHINA-GEO": {
+          "ticker": "FORM",
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Global semicap supply chain, China/Taiwan/export and manufacturing geography risk require full risk-factor extraction.",
+          "consequence": "Cannot enter R7 directly under R6 rules; must remain R6 backlog/continue until cleared.",
+          "R6_status": "R6_RESEARCH_BACKLOG_REQUIRED"
+        },
+        "STOP-VALUATION-OVERHEAT": {
+          "ticker": "FORM",
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "No target price or trading signal used; crowding/expectation risk remains unresolved.",
+          "consequence": "Cannot enter R7 directly under R6 rules; must remain R6 backlog/continue until cleared.",
+          "R6_status": "R6_RESEARCH_BACKLOG_REQUIRED"
+        },
+        "STOP-GOING-CONCERN": {
+          "ticker": "FORM",
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "No going-concern issue found in automated pass.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-SHAREHOLDER-NOT-CAPTURED": {
+          "ticker": "FORM",
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Requires margin, FCF, dilution/debt and capital allocation evidence.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-GOVERNANCE-ACCOUNTING": {
+          "ticker": "FORM",
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "No accounting/governance blocker found in automated pass.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-LINKAGE-WEAK": {
+          "ticker": "FORM",
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "FORM/ONTO have direct linkage to test/process-control complexity; thesis revenue still not fully separated.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        }
+      },
+      "evidence_summary": {
+        "evidence_items": 11,
+        "thesis_revenue": "THESIS_REVENUE_NOT_SEPARATELY_DISCLOSED",
+        "customer_concentration": "CUSTOMER_CONCENTRATION_UNKNOWN",
+        "cancellability": "CANCELLABILITY_UNKNOWN"
+      },
+      "main_thesis": "FORM is a narrow semiconductor test chokepoint candidate: if HBM, advanced packaging and networking chips increase wafer/probe complexity, probe-card and production test interface demand can become structurally more important rather than merely cyclical.",
+      "main_risk": "HBM/probe-card strength may be cyclical or concentrated, with insufficient R7-grade customer concentration and recurrence evidence.",
+      "next_action": "clear unresolved R6 STOP gates before R7 governance"
+    },
+    {
+      "ticker": "ONTO",
+      "previous_status": "R5_CANDIDATE",
+      "r6_classification": "R6_RESEARCH_BACKLOG",
+      "scores": {
+        "ticker": "ONTO",
+        "industry_tailwind": 9,
+        "chokepoint_strength": 8,
+        "supply_chain_linkage": 9,
+        "valuation_reset_potential": 4,
+        "market_neglect": 5,
+        "technical_validation": 9,
+        "customer_validation": 8,
+        "production_validation": 8,
+        "financial_translation": 8,
+        "catalyst_density": 8,
+        "balance_sheet_survivability": 7,
+        "shareholder_capture": 7,
+        "management_quality": 8,
+        "governance_accounting_quality": 8,
+        "dilution_control": 5,
+        "social_media_overheat": 1,
+        "valuation_overheat": 5,
+        "customer_concentration": 4,
+        "replacement_risk": 3,
+        "execution_risk": 4,
+        "going_concern": 0,
+        "filing_audit_governance_risk": 1,
+        "opportunity_score": 35,
+        "evidence_score": 41,
+        "survivability_score": 35,
+        "penalty_score": 18,
+        "final_research_score": 81.6,
+        "confidence_level": "MEDIUM_HIGH",
+        "R6_classification": "R6_RESEARCH_BACKLOG"
+      },
+      "stop_gates": {
+        "STOP-REV0": {
+          "ticker": "ONTO",
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Company has operating revenue from filed/public evidence.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-DEMO-NOT-PRODUCTION": {
+          "ticker": "ONTO",
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Primary thesis evidence is production revenue/order/qualification context, not demo/sample/MoU alone.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-CUSTOMER-UNCLEAR": {
+          "ticker": "ONTO",
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "Customer/product relationships are supported by official releases, but details vary by ticker.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-DILUTION": {
+          "ticker": "ONTO",
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Check share issuance, convertible financing, and SBC impact. ONTO announced upsized $1.3B 0.00% convertible notes due 2031, so dilution/debt audit remains unresolved.",
+          "consequence": "Cannot enter R7 directly under R6 rules; must remain R6 backlog/continue until cleared.",
+          "R6_status": "R6_RESEARCH_BACKLOG_REQUIRED"
+        },
+        "STOP-SOCIAL-HYPE": {
+          "ticker": "ONTO",
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "No social-media evidence was used as positive support.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-CUSTOMER-CONCENTRATION": {
+          "ticker": "ONTO",
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Full 10% customer and customer concentration tables remain necessary for R7 governance.",
+          "consequence": "Cannot enter R7 directly under R6 rules; must remain R6 backlog/continue until cleared.",
+          "R6_status": "R6_RESEARCH_BACKLOG_REQUIRED"
+        },
+        "STOP-CHINA-GEO": {
+          "ticker": "ONTO",
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Global semicap supply chain, China/Taiwan/export and manufacturing geography risk require full risk-factor extraction.",
+          "consequence": "Cannot enter R7 directly under R6 rules; must remain R6 backlog/continue until cleared.",
+          "R6_status": "R6_RESEARCH_BACKLOG_REQUIRED"
+        },
+        "STOP-VALUATION-OVERHEAT": {
+          "ticker": "ONTO",
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "No target price or trading signal used; crowding/expectation risk remains unresolved.",
+          "consequence": "Cannot enter R7 directly under R6 rules; must remain R6 backlog/continue until cleared.",
+          "R6_status": "R6_RESEARCH_BACKLOG_REQUIRED"
+        },
+        "STOP-GOING-CONCERN": {
+          "ticker": "ONTO",
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "No going-concern issue found in automated pass.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-SHAREHOLDER-NOT-CAPTURED": {
+          "ticker": "ONTO",
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "Requires margin, FCF, dilution/debt and capital allocation evidence.",
+          "consequence": "Cannot enter R7 directly under R6 rules; must remain R6 backlog/continue until cleared.",
+          "R6_status": "R6_RESEARCH_BACKLOG_REQUIRED"
+        },
+        "STOP-GOVERNANCE-ACCOUNTING": {
+          "ticker": "ONTO",
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "No accounting/governance blocker found in automated pass.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        },
+        "STOP-LINKAGE-WEAK": {
+          "ticker": "ONTO",
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "FORM/ONTO have direct linkage to test/process-control complexity; thesis revenue still not fully separated.",
+          "consequence": "Clear for continued scoring.",
+          "R6_status": "CLEAR"
+        }
+      },
+      "evidence_summary": {
+        "evidence_items": 12,
+        "thesis_revenue": "THESIS_REVENUE_NOT_SEPARATELY_DISCLOSED",
+        "customer_concentration": "CUSTOMER_CONCENTRATION_UNKNOWN",
+        "cancellability": "CANCELLABILITY_UNKNOWN"
+      },
+      "main_thesis": "ONTO is a process-control platform candidate: AI/HBM, 2.5D logic, advanced nodes and heterogeneous integration increase metrology/inspection complexity, making yield/process-control capability more strategic.",
+      "main_risk": "Strong platform thesis may be partially priced and shareholder capture is complicated by convertible financing and capital allocation needs.",
+      "next_action": "clear unresolved R6 STOP gates before R7 governance"
+    },
+    {
+      "ticker": "CAMT",
+      "previous_status": "R5_PRIORITY_UNDERWRITING_CONTINUE",
+      "r6_classification": "NOT_IN_SCOPE_THIS_RUN",
+      "next_action": "remain R5 priority / future memo"
+    }
+  ],
+  "generated_at": "2026-05-31T16:45:31.283785+08:00"
+}

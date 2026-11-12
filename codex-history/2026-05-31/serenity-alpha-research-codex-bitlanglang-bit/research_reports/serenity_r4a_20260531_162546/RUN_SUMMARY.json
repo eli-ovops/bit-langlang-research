@@ -1,0 +1,35 @@
+{
+  "final_decision": "R4A_DEEP_DIVE_COMPLETED_RESEARCH_ONLY",
+  "output_directory": "/Users/USER/Documents/Codex/2026-05-31/serenity-alpha-research-codex-bitlanglang-bit/research_reports/serenity_r4a_20260531_162546",
+  "zip_path": "/Users/USER/Documents/Codex/2026-05-31/serenity-alpha-research-codex-bitlanglang-bit/research_reports/serenity_r4a_20260531_162546/serenity_r4a_deep_dive_20260531_162546.zip",
+  "zip_sha256": "SEE_FINAL_REPLY_OR_RECALCULATE_WITH_SHASUM",
+  "files_generated_count": 8,
+  "public_source_status": "YES",
+  "r5_candidates": [
+    "ONTO",
+    "CAMT",
+    "FORM"
+  ],
+  "r4_priority": [
+    "TSEM",
+    "MTSI",
+    "FN"
+  ],
+  "backlog": [
+    "AEHR"
+  ],
+  "benchmark_only": [
+    "COHR",
+    "LITE",
+    "AAOI",
+    "AXTI"
+  ],
+  "blocked_no_go": [
+    "POET",
+    "LWLG"
+  ],
+  "limitations": [
+    "SEC/EDGAR automated pass only; manual IR/transcript/media/customer evidence still required for R5 underwriting.",
+    "No buy/sell/target/position/entry/trade plan output."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "final_decision": "R6_RESEARCH_MEMO_COMPLETED_RESEARCH_ONLY",
+  "output_directory": "/Users/USER/Documents/Codex/2026-05-31/serenity-alpha-research-codex-bitlanglang-bit/research_reports/serenity_r6_20260531_164523",
+  "zip_path": "/Users/USER/Documents/Codex/2026-05-31/serenity-alpha-research-codex-bitlanglang-bit/research_reports/serenity_r6_20260531_164523/serenity_r6_form_onto_research_memo_20260531_164523.zip",
+  "zip_sha256": "d3e025e4950ec563bdc8609970daed60a02e38cd9e5598856bdf9460a1e1fe19",
+  "files_generated_count": 11,
+  "safety": "NO_BUY_SELL_TARGET_POSITION_ENTRY_TRADE_PLAN",
+  "r7_candidates": [],
+  "r6_backlog": [
+    "FORM",
+    "ONTO"
+  ],
+  "downgraded_blocked": [],
+  "form_classification": "R6_RESEARCH_BACKLOG",
+  "onto_classification": "R6_RESEARCH_BACKLOG",
+  "camt_status": "R5_PRIORITY_UNDERWRITING_CONTINUE / NOT_IN_SCOPE_THIS_RUN",
+  "limitations": [
+    "R6 rules block R7 when STOP gates remain UNCLEAR.",
+    "Thesis revenue not separately disclosed; no forced estimates.",
+    "Customer concentration, backlog/order terms, take-or-pay and cancellability remain unresolved."
+  ]
+}

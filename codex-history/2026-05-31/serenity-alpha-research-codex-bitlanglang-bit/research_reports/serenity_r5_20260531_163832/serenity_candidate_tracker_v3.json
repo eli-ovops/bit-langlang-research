@@ -1,0 +1,562 @@
+{
+  "project": "Serenity Alpha Research",
+  "stage": "R5 research underwriting",
+  "generated_at": "2026-05-31T16:38:43.187492+08:00",
+  "context_verification": {
+    "AGENTS.md": true,
+    "SERENITY_PROJECT_STATE.md": true,
+    "SERENITY_SCORECARD_V1_2.md": true,
+    "SERENITY_STOP_GATES.md": true,
+    "SERENITY_R3_CLASSIFICATION.csv": true,
+    "SERENITY_R4A_SCOPE.md": true
+  },
+  "r4a_context_verification": {
+    "SERENITY_R4A_DEEP_DIVE_REPORT.md": true,
+    "serenity_r4a_ranking.csv": true,
+    "serenity_candidate_tracker_v2.json": true
+  },
+  "public_source_status": "YES",
+  "candidates": [
+    {
+      "ticker": "ONTO",
+      "original_R4_status": "R5_THESIS_UNDERWRITING_CANDIDATE",
+      "updated_R5_status": "R6_FULL_THESIS_MEMO_CANDIDATE",
+      "scoring": {
+        "Opportunity Score": 88,
+        "Evidence Score": 84,
+        "Survivability / Shareholder Capture Score": 76,
+        "Penalty Score": 28,
+        "final_research_score": 82,
+        "confidence_level": "HIGH",
+        "R5_classification": "R6_FULL_THESIS_MEMO_CANDIDATE"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Company revenue extracted: 291.9M USD (10-Q, end 2026-03-31, filed 2026-05-05, us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax).",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Recent $1.3B convertible senior notes require dilution/debt audit.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Full customer concentration table and 10% customer disclosure still need manual extraction.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Geographic/export exposure requires full risk-factor review; CAMT has Israel location exposure and all three have export-chain sensitivity.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No target price used; crowding risk remains qualitative only.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Evidence directly links these names to process control, HBM/advanced packaging or wafer-level test/inspection complexity.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        }
+      ],
+      "evidence_summary": [
+        {
+          "source_type": "latest 10-K / 10-Q / annual report",
+          "source_date": "2026-02-24",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/704532/000119312526066937/onto-20260103.htm",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "Evidence / Survivability",
+          "note": "SEC 10-K 10-K"
+        },
+        {
+          "source_type": "latest quarterly/current filing",
+          "source_date": "2026-05-05",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/704532/000119312526206707/onto-20260331.htm",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "financial_translation",
+          "note": "SEC 10-Q 10-Q"
+        },
+        {
+          "source_type": "latest earnings release proxy",
+          "source_date": "2026-05-21",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/704532/000119312526234610/d17904d8k.htm",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "Evidence / Confirmation",
+          "note": "SEC 8-K 8-K"
+        },
+        {
+          "source_type": "segment/product revenue facts",
+          "source_date": "2026-05-05",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000704532.json",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "financial_translation",
+          "note": "Revenue: 291.9M USD (10-Q, end 2026-03-31, filed 2026-05-05, us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax); gross profit: 146.4M USD (10-Q, end 2026-03-31, filed 2026-05-05, us-gaap:GrossProfit); operating cash flow: 26.3M USD (10-Q, end 2026-03-31, filed 2026-05-05, us-gaap:NetCashProvidedByUsedInOperatingActivities); capex: 3.6M USD (10-Q, end 2026-03-31, filed 2026-05-05, us-gaap:PaymentsToAcquirePropertyPlantAndEquipment)"
+        },
+        {
+          "source_type": "company IR earnings release",
+          "source_date": "2026-05-05",
+          "source_reference": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2026-First-Quarter-Results/default.aspx",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "Evidence Score / financial_translation",
+          "note": "Q1 2026 record quarterly revenue of $292M; Dragonfly G5 qualified at 2.5D logic and HBM customers; Atlas G6 selected by a second logic customer."
+        },
+        {
+          "source_type": "company IR FY2025 release",
+          "source_date": "2026-02-19",
+          "source_reference": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "customer_validation",
+          "note": "FY2025 revenue above $1B and estimated $240M+ HBM volume purchase agreement through 2027."
+        },
+        {
+          "source_type": "company IR partnership",
+          "source_date": "2026-04-20",
+          "source_reference": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Announces-Strategic-Partnership-With-Leading-X-Ray-Provider-Rigaku-To-Advance-Next-Generation-Process-Control-Solutions/default.aspx",
+          "evidence_quality": "MEDIUM_HIGH",
+          "supports_or_hurts": "technical_validation",
+          "note": "Rigaku collaboration selected by two key customers; expands process-control capability."
+        },
+        {
+          "source_type": "company IR financing",
+          "source_date": "2026-05-18",
+          "source_reference": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Announces-Pricing-of-Upsized-Private-Offering-of-1-3-Billion-of-0-00-Convertible-Senior-Notes-Due-2031/default.aspx",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "Penalty / dilution_control",
+          "note": "Upsized $1.3B 0.00% convertible senior notes require dilution/debt audit."
+        },
+        {
+          "source_type": "public transcript index",
+          "source_date": "2026-05-05",
+          "source_reference": "https://stockanalysis.com/stocks/onto/transcripts/",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "secondary confirmation",
+          "note": "Q1 2026 transcript availability; secondary only."
+        },
+        {
+          "source_type": "social media evidence",
+          "source_date": "",
+          "source_reference": "not used",
+          "evidence_quality": "N/A",
+          "supports_or_hurts": "Penalty only",
+          "note": "Social-media heat is crowding risk only and no positive evidence."
+        }
+      ],
+      "next_action": "Proceed to R6 full thesis memo with full citation pack"
+    },
+    {
+      "ticker": "FORM",
+      "original_R4_status": "R5_THESIS_UNDERWRITING_CANDIDATE",
+      "updated_R5_status": "R6_FULL_THESIS_MEMO_CANDIDATE",
+      "scoring": {
+        "Opportunity Score": 86,
+        "Evidence Score": 86,
+        "Survivability / Shareholder Capture Score": 78,
+        "Penalty Score": 24,
+        "final_research_score": 83,
+        "confidence_level": "HIGH",
+        "R5_classification": "R6_FULL_THESIS_MEMO_CANDIDATE"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Company revenue extracted: 226.1M USD (10-Q, end 2026-03-28, filed 2026-05-05, us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax).",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Full customer concentration table and 10% customer disclosure still need manual extraction.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Geographic/export exposure requires full risk-factor review; CAMT has Israel location exposure and all three have export-chain sensitivity.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No target price used; crowding risk remains qualitative only.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Evidence directly links these names to process control, HBM/advanced packaging or wafer-level test/inspection complexity.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        }
+      ],
+      "evidence_summary": [
+        {
+          "source_type": "latest 10-K / 10-Q / annual report",
+          "source_date": "2026-02-20",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "Evidence / Survivability",
+          "note": "SEC 10-K 10-K"
+        },
+        {
+          "source_type": "latest quarterly/current filing",
+          "source_date": "2026-05-05",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000023/form-20260328.htm",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "financial_translation",
+          "note": "SEC 10-Q 10-Q"
+        },
+        {
+          "source_type": "latest earnings release proxy",
+          "source_date": "2026-05-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000025/form-20260515.htm",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "Evidence / Confirmation",
+          "note": "SEC 8-K 8-K"
+        },
+        {
+          "source_type": "segment/product revenue facts",
+          "source_date": "2026-05-05",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001039399.json",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "financial_translation",
+          "note": "Revenue: 226.1M USD (10-Q, end 2026-03-28, filed 2026-05-05, us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax); gross profit: 86.8M USD (10-Q, end 2026-03-28, filed 2026-05-05, us-gaap:GrossProfit); operating cash flow: 45.0M USD (10-Q, end 2026-03-28, filed 2026-05-05, us-gaap:NetCashProvidedByUsedInOperatingActivities); capex: 15.2M USD (10-Q, end 2026-03-28, filed 2026-05-05, us-gaap:PaymentsToAcquirePropertyPlantAndEquipment)"
+        },
+        {
+          "source_type": "company IR earnings release",
+          "source_date": "2026-04-29",
+          "source_reference": "https://investors.formfactor.com/news-releases/news-release-details/formfactor-inc-reports-2026-first-quarter-results",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "production_validation",
+          "note": "Q1 2026 revenue $226.1M; record revenue; record DRAM revenue with increased HBM application demand and networking-driven Foundry & Logic demand."
+        },
+        {
+          "source_type": "company IR FY2025 release",
+          "source_date": "2026-02-04",
+          "source_reference": "https://investors.formfactor.com/news-releases/news-release-details/formfactor-inc-reports-2025-fourth-quarter-results",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "financial_translation",
+          "note": "FY2025 revenue $785.0M driven by HBM growth; margin improvement in second half 2025."
+        },
+        {
+          "source_type": "company IR investor day",
+          "source_date": "2026-03-05",
+          "source_reference": "https://investors.formfactor.com/news-releases/news-release-details/formfactor-host-upcoming-investor-day",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "management_quality",
+          "note": "Investor Day scheduled May 11 2026; presentation materials expected on IR site."
+        },
+        {
+          "source_type": "public transcript",
+          "source_date": "2026-04-29",
+          "source_reference": "https://www.fool.com/earnings/call-transcripts/2026/04/29/formfactor-form-q1-2026-earnings-transcript/",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "secondary confirmation",
+          "note": "Transcript secondary; filings/releases remain primary."
+        },
+        {
+          "source_type": "social media evidence",
+          "source_date": "",
+          "source_reference": "not used",
+          "evidence_quality": "N/A",
+          "supports_or_hurts": "Penalty only",
+          "note": "Social-media heat is crowding risk only and no positive evidence."
+        }
+      ],
+      "next_action": "Proceed to R6 full thesis memo with full citation pack"
+    },
+    {
+      "ticker": "CAMT",
+      "original_R4_status": "R5_THESIS_UNDERWRITING_CANDIDATE",
+      "updated_R5_status": "R5_PRIORITY_UNDERWRITING_CONTINUE",
+      "scoring": {
+        "Opportunity Score": 84,
+        "Evidence Score": 78,
+        "Survivability / Shareholder Capture Score": 72,
+        "Penalty Score": 32,
+        "final_research_score": 76,
+        "confidence_level": "MEDIUM_HIGH",
+        "R5_classification": "R5_PRIORITY_UNDERWRITING_CONTINUE"
+      },
+      "STOP_gate_results": [
+        {
+          "gate": "STOP-REV0",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Company revenue extracted: 496.1M USD (20-F, end 2025-12-31, filed 2026-03-19, us-gaap:Revenues).",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-DEMO-NOT-PRODUCTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-CUSTOMER-UNCLEAR",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-DILUTION",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-SOCIAL-HYPE",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-CUSTOMER-CONCENTRATION",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Full customer concentration table and 10% customer disclosure still need manual extraction.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-CHINA-GEO",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Geographic/export exposure requires full risk-factor review; CAMT has Israel location exposure and all three have export-chain sensitivity.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-VALUATION-OVERHEAT",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No target price used; crowding risk remains qualitative only.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-GOING-CONCERN",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-SHAREHOLDER-NOT-CAPTURED",
+          "triggered_yes_no_unclear": "UNCLEAR",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Unresolved; must be cleared before higher confidence R6 memo.",
+          "R5_status": "NEEDS_CLEARANCE"
+        },
+        {
+          "gate": "STOP-GOVERNANCE-ACCOUNTING",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. No social or historical-price evidence used; demo/sample/MoU not counted as production revenue.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        },
+        {
+          "gate": "STOP-LINKAGE-WEAK",
+          "triggered_yes_no_unclear": "NO",
+          "evidence": "R5 public-source evidence pack plus R4-A context. Evidence directly links these names to process control, HBM/advanced packaging or wafer-level test/inspection complexity.",
+          "consequence": "Not triggered in R5 public-source pass.",
+          "R5_status": "CLEAR"
+        }
+      ],
+      "evidence_summary": [
+        {
+          "source_type": "latest 10-K / 10-Q / annual report",
+          "source_date": "2026-03-19",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326001561/zk2634678.htm",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "Evidence / Survivability",
+          "note": "SEC 20-F 20-F"
+        },
+        {
+          "source_type": "latest quarterly/current filing",
+          "source_date": "2026-05-12",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326002569/zk2635285.htm",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "financial_translation",
+          "note": "SEC 6-K 6-K"
+        },
+        {
+          "source_type": "latest earnings release proxy",
+          "source_date": "2026-05-12",
+          "source_reference": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326002569/zk2635285.htm",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "Evidence / Confirmation",
+          "note": "SEC 6-K 6-K"
+        },
+        {
+          "source_type": "segment/product revenue facts",
+          "source_date": "2026-03-19",
+          "source_reference": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001109138.json",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "financial_translation",
+          "note": "Revenue: 496.1M USD (20-F, end 2025-12-31, filed 2026-03-19, us-gaap:Revenues); gross profit: 250.3M USD (20-F, end 2025-12-31, filed 2026-03-19, us-gaap:GrossProfit); operating cash flow: 141.9M USD (20-F, end 2025-12-31, filed 2026-03-19, us-gaap:NetCashProvidedByUsedInOperatingActivities); capex: 14.4M USD (20-F, end 2025-12-31, filed 2026-03-19, us-gaap:PaymentsToAcquirePropertyPlantAndEquipment)"
+        },
+        {
+          "source_type": "company earnings release",
+          "source_date": "2026-05-12",
+          "source_reference": "https://www.camtek.com/news-and-events/camtek-announces-results-for-the-first-quarter-of-2026/",
+          "evidence_quality": "HIGH",
+          "supports_or_hurts": "financial_translation",
+          "note": "Q1 2026 revenue $121.7M; GAAP gross margin 50.1%; Q2 revenue guidance $129M-$131M; strong order momentum."
+        },
+        {
+          "source_type": "company order announcement",
+          "source_date": "2026-03-00",
+          "source_reference": "https://www.camtek.com/news-and-events/camtek-receives-31-million-multi-system-order-from-a-leading-osat/",
+          "evidence_quality": "MEDIUM_HIGH",
+          "supports_or_hurts": "customer_validation / production_validation",
+          "note": "$31M multi-system order from a leading OSAT; terms/customer identity limited."
+        },
+        {
+          "source_type": "company investor page",
+          "source_date": "2026-05-00",
+          "source_reference": "https://www.camtek.com/investors/",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "investor_presentation",
+          "note": "Investor page references latest investor presentation and advanced interconnect packaging target markets."
+        },
+        {
+          "source_type": "investor presentation PDF",
+          "source_date": "2026-02-00",
+          "source_reference": "https://www.camtek.com/wp-content/uploads/Camtek_Investors_FEB2026.pdf",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "financial_translation",
+          "note": "Company presentation includes FY2025 margin and operating history."
+        },
+        {
+          "source_type": "public transcript index",
+          "source_date": "2026-05-12",
+          "source_reference": "https://stockanalysis.com/stocks/camt/transcripts/",
+          "evidence_quality": "MEDIUM",
+          "supports_or_hurts": "secondary confirmation",
+          "note": "Q1 2026 transcript availability; secondary only."
+        },
+        {
+          "source_type": "social media evidence",
+          "source_date": "",
+          "source_reference": "not used",
+          "evidence_quality": "N/A",
+          "supports_or_hurts": "Penalty only",
+          "note": "Social-media heat is crowding risk only and no positive evidence."
+        }
+      ],
+      "next_action": "Continue R5 evidence clearing before R6 memo"
+    }
+  ]
+}

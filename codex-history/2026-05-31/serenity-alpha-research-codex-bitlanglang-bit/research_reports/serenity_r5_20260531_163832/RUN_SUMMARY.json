@@ -1,0 +1,20 @@
+{
+  "final_decision": "R5_UNDERWRITING_COMPLETED_RESEARCH_ONLY",
+  "output_directory": "/Users/USER/Documents/Codex/2026-05-31/serenity-alpha-research-codex-bitlanglang-bit/research_reports/serenity_r5_20260531_163832",
+  "zip_path": "/Users/USER/Documents/Codex/2026-05-31/serenity-alpha-research-codex-bitlanglang-bit/research_reports/serenity_r5_20260531_163832/serenity_r5_underwriting_20260531_163832.zip",
+  "zip_sha256": "SEE_FINAL_REPLY_OR_RUN_SHASUM",
+  "files_generated_count": 8,
+  "public_source_status": "YES",
+  "r6_candidates": [
+    "ONTO",
+    "FORM"
+  ],
+  "continued_underwriting": [
+    "CAMT"
+  ],
+  "downgraded_blocked": [],
+  "limitations": [
+    "SEC/EDGAR plus public IR/search pass; full manual R6 citation extraction still required.",
+    "No buy/sell/target/position/entry/trade plan output."
+  ]
+}

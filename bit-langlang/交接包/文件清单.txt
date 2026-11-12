@@ -1,0 +1,37 @@
+# 关键文件清单（2026-10-30）
+
+## 交接包
+/Volumes/EXTERNAL/bit浪浪/交接包/
+  README.md
+  00-项目总览与最终结论.md
+  01-数据、代码、文件索引.md
+  02-研究证据与关键数字.md
+  03-当前运行状态与恢复手册.md
+  04-AlphaFox操作手册与约束.md
+  05-下一步与验收门禁.md
+  06-给Codex的接手提示词.md
+  frozen_config.copy.json
+  文件清单.txt
+  研究代码与文档-20261030.tar.gz（若已生成）
+
+## 研究项目
+/Volumes/EXTERNAL/bit浪浪/
+  README.md
+  docs/（28 份报告，见 01 文档 §8）
+  verify/（15 个 py + templates + frozen_config.json）
+  scripts/（01/02/03/10 + v2_selector/attribution/entry_exit）
+  backtest/（引擎与 v2）
+  data/processed/v2/（trades_legs / dedup / positions / DATA_AUDIT.md）
+  data/market/（10 币 5m/1h/4h/1d + funding）
+  data/verify/（回测/验证产物 json/csv/md）
+  原始材料：2022.5~2024.6...xlsx / 4808...docx / ...pdf
+
+## AlphaFox
+/Volumes/EXTERNAL/亚力克斯 /AlphaFox研究-20261027/CLI接入-20261029/
+  node_modules/.bin/alphafox
+  node_modules/@alphafox/cli/skills/（官方 skills）
+  研究-20261029/报告.md
+  研究-20261029/平台回测-代理策略.md
+  研究-20261029/configs/
+  研究-20261029/results/
+  研究-20261029/被替换交易备份-ETH均线突破.json
